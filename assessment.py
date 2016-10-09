@@ -221,7 +221,7 @@ def kids_game(names):
         name_info[first_letter] = name_info.get(first_letter, [])
         name_info[first_letter].append(name)
 
-    # Remove the name from the list value of the first letter key
+    # Remove the first name from the list value of the first letter key
     first_letter = names[0][0]
     name_info[first_letter].remove((name_info.get(first_letter))[0])
 
